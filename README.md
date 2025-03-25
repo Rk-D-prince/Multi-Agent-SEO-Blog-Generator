@@ -25,15 +25,19 @@ The final result of the crew kickoff is saved to a file, such as a markdown file
 Research Agent:
 Initiates the process by searching the web for relevant information on the given HR topic.
 Gathers data from reputable sources and provides a summary.
+
 Content Planning Agent:
 Receives the research summary and creates a structured outline for the blog post.
 Defines headings, subheadings, and key points to ensure a logical flow.
+
 Content Generation Agent:
 Uses the outline and research to write a comprehensive 2000-word blog post.
 Focuses on clear language, relevant examples, and engaging content.
+
 SEO Optimization Agent:
 Optimizes the blog post for search engines using provided keywords.
 Implements SEO best practices, including keyword integration, meta descriptions, and heading optimization.
+
 Review Agent:
 Proofreads the blog post for grammar, clarity, and overall quality.
 Provides feedback and suggestions for improvement.
@@ -44,14 +48,18 @@ Checks for plagiarism and factual accuracy.
 CrewAI:
 The core framework for creating and managing the multi-agent system.
 Handles agent communication, task execution, and workflow management.
+
 CrewAI-tools:
 A library of pre-built tools that can be used by CrewAI agents.
 Provides tools for web searching and text analysis.
+
 OpenAI API:
 Used for content generation, outline creation, and SEO optimization.
 Leverages the power of large language models for natural language processing.
+
 Python-dotenv:
 Used to load environment variables (e.g., OpenAI API key) from a .env file.
+
 Python:
 The programming language used to develop the entire system.
 
@@ -60,10 +68,9 @@ The programming language used to develop the entire system.
 Installation:
 Install Python: Ensure Python 3.x is installed.
 Create Virtual Environment (Recommended): python -m venv venv
-Activate Virtual Environment:
-Windows: venv\Scripts\activate
+Activate Virtual Environment:venv\Scripts\activate
 
-Install Dependencies: pip install -r requirements.txt1 (where requirements.txt contains the list of required libraries).   
+Install Dependencies: pip install -r requirements.txt   
 
 Execution:
 Run the Python Script: python main.py
