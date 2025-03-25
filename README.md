@@ -5,14 +5,18 @@
 Modular Design:
 The system is structured as a multi-agent system, where each agent is responsible for a specific part of the blog generation process.
 This modular design promotes code reusability, maintainability, and scalability.
+
 Agent Communication:
 Agents communicate implicitly through the CrewAI framework.
 The output of one agent's task becomes the input for the next agent's task, creating a workflow.
+
 Sequential Processing:
 The system uses a sequential processing model, where agents execute their tasks in a predefined order.
 This ensures a logical flow from research to final review.
+
 Data Flow:
 Data flows from the web (through the Research Agent), to structured content (through the Planning Agent), to generated text (through the Generation Agent), to optimized text (through the SEO Agent), and finally to reviewed text (through the Review Agent).
+
 File Output:
 The final result of the crew kickoff is saved to a file, such as a markdown file.
 
