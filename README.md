@@ -1,6 +1,6 @@
 # Multi-Agent-SEO-Blog-Generator
 
-1. System Architecture:
+**1. System Architecture:**
 
 Modular Design:
 The system is structured as a multi-agent system, where each agent is responsible for a specific part of the blog generation process.
@@ -16,7 +16,7 @@ Data flows from the web (through the Research Agent), to structured content (thr
 File Output:
 The final result of the crew kickoff is saved to a file, such as a markdown file.
 
-2. Agent Workflow:
+**2. Agent Workflow:**
 
 Research Agent:
 Initiates the process by searching the web for relevant information on the given HR topic.
@@ -35,7 +35,7 @@ Proofreads the blog post for grammar, clarity, and overall quality.
 Provides feedback and suggestions for improvement.
 Checks for plagiarism and factual accuracy.
 
-3. Tools and Frameworks Used:
+**3. Tools and Frameworks Used:**
 
 CrewAI:
 The core framework for creating and managing the multi-agent system.
@@ -51,7 +51,7 @@ Used to load environment variables (e.g., OpenAI API key) from a .env file.
 Python:
 The programming language used to develop the entire system.
 
-4. Installation and Execution Steps:
+**4. Installation and Execution Steps:**
 
 Installation:
 Install Python: Ensure Python 3.x is installed.
